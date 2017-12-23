@@ -1,0 +1,81 @@
+{
+    "platforms": {
+        "android": {
+            "major": 4,
+            "minor": 6,
+            "patch": 0,
+            "messages": {
+                "short_text": "Android update available",
+                "long_text": "An update for the Android client is available.\nVersion: {major}_{minor}_{patch} is available to download <a href='{link}'>here.</a>"
+            },
+            "link": "https://play.google.com/store/apps/details?id=org.telegram.messenger"
+        },
+        "ios": {
+            "major": 4,
+            "minor": 6,
+            "patch": 0,
+            "messages": {
+                "short_text": "iOS update available",
+                "long_text": "An update for the iOS client is available.\nVersion: {major}_{minor}_{patch} is available to download <a href='{link}'>here.</a>"
+            },
+            "link": "https://itunes.apple.com/app/telegram-messenger/id686449807"
+        },
+        "web": {
+            "major": 0,
+            "minor": 5,
+            "patch": 7,
+            "messages": {
+                "short_text": "Web update available",
+                "long_text": "An update for the web client is available.\nVersion: {major}_{minor}_{patch} is available to download <a href='{link}'>here.</a>"
+            },
+            "link": "https://web.telegram.org"
+        },
+        "desktop": {
+            "major": 1,
+            "minor": 2,
+            "patch": 3,
+            "messages": {
+                "short_text": "Desktop update available",
+                "long_text": "An update for the desktop client is available.\nVersion: {major}_{minor}_{patch} is available to download <a href='{link}'>here.</a>"
+            },
+            "link": "https://desktop.telegram.org"
+        },
+        "mac": {
+            "major": 3,
+            "minor": 6,
+            "patch": 0,
+            "messages": {
+                "short_text": "macOS update available",
+                "long_text": "An update for the macOS client is available.\nVersion: {major}_{minor}_{patch} is available to download <a href='{link}'>here.</a>"
+            },
+            "link": "https://macos.telegram.org"
+        },
+        "windows_phone": {
+            "major": 2,
+            "minor": 8,
+            "patch": 1,
+            "messages": {
+                "short_text": "Windows Phone update available",
+                "long_text": "An update for the Windows Phone client is available.\nVersion: {major}_{minor}_{patch} is available to download <a href='{link}'>here.</a>"
+            },
+            "link": "https://www.microsoft.com/en-us/store/p/telegram-messenger/9wzdncrdzhs0"
+        }
+    },
+    "telegram": {
+        "bot_token": "BOT_TOKEN_HERE"
+    },
+    "messages": {
+        "formatting": {
+            "short_text": "Wrong format given. Use #v00_00_00",
+            "long_text": "The format you supplied doesn't look right.\nPlease try again using this format: <code>#v00_00_00000</code>"
+        },
+        "undefined": {
+            "short_text": "Please provide a version number (e.g. #v0_0_0)",
+            "long_text": "Please provide a version number to check with, such as #v00_00_00."
+        },
+        "uptodate": {
+            "short_text": "is up to date",
+            "long_text": "Your version appears to be up to date."
+        }
+    }
+}
